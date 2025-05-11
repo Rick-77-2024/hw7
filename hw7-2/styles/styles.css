@@ -41,7 +41,7 @@ nav a {
     opacity: 0.6;
 }
 
-header h2 {
+header h4 {
     color: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -49,4 +49,53 @@ header h2 {
     font-weight: 700;
     line-height: normal;
     opacity: 0.6;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 103px;
+}
+
+.suns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+    background-color: #071341;
+}
+
+.sun-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    background-color: #FF6853;
+    width: 176px;
+    height: 56px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.sum-img {
+    margin: auto;
+}
+
+.text {
+    margin-left: 18px;
+}
+
+p {
+    color: #8E88C1;
 }
