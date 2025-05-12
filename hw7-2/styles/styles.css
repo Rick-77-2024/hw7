@@ -22,6 +22,10 @@ header {
     align-items: center;
 }
 
+h4 {
+    color: #FFFFFF;
+}
+
 h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -103,6 +107,7 @@ header h4 {
 }
 
 p {
+    margin-top: 8px;
     color: #8E88C1;
 }
 
@@ -110,8 +115,6 @@ p {
     margin-top: 85px;
     width: 145px;
     height: 41px;
-    top: 198px;
-    left: 115px;
     border-radius: 8px;
     color: #8E88C1;
     background-color: #4B4864;
@@ -218,19 +221,17 @@ p {
     text-align: center;
 }
 
-/* ============================= */
-
 .suns-dark {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
     background-color: #071341;
-
 }
 
 .sun-group-dark {
     margin-top: 50px;
+    margin-bottom: 152px;
     width: 208px;
     height: 206px;
     border-radius: 8px;
@@ -255,10 +256,6 @@ p {
     text-align: center;
 }
 
-p {
-    color: #8E88C1;
-}
-
 .all-dark {
     display: flex;
     align-items: center;
@@ -266,5 +263,24 @@ p {
     gap: 32px;
 }
 
-/* ============================= */
 
+iframe {
+    width: 100%;
+    height: 664px;
+    display: block;
+}
+
+footer {
+    height: 94px;
+    width: 100%;
+    background: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
