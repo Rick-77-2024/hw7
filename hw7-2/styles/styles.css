@@ -62,18 +62,17 @@ header h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 103px;
+    gap: 74px;
 }
 
 .suns {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 74px;
     background-color: #071341;
 }
 
 .sun-group {
+    margin-top: 50px;
+    margin-right: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,7 +110,7 @@ p {
     margin-top: 85px;
     width: 145px;
     height: 41px;
-    top:198px;
+    top: 198px;
     left: 115px;
     border-radius: 8px;
     color: #8E88C1;
@@ -148,7 +147,7 @@ p {
     font-weight: 500;
     font-size: 16px;
     font-style: normal;
-    color:  #8E88C1;
+    color: #8E88C1;
     line-height: 130%;
     letter-spacing: 1.5px;
 }
@@ -188,3 +187,84 @@ p {
     border: none;
     color: #FFFFFF;
 }
+
+.group-center {
+    background-color: #071341;
+    display: flex;
+    justify-content: center;
+}
+
+.group-center h3 {
+    margin-top: 50px;
+    width: 1074px;
+    height: 126px;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+}
+
+.sub-text {
+    background-color: #071341;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-text h3 {
+    margin-top: 50px;
+    width: 545px;
+    height: 24px;
+    color: #8E88C1;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ============================= */
+
+.suns-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color: #071341;
+
+}
+
+.sun-group-dark {
+    margin-top: 50px;
+    width: 208px;
+    height: 206px;
+    border-radius: 8px;
+    border: solid #8E88C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sun-dark-img {
+    width: 37px;
+    height: 37px;
+    display: table-column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-dark {
+    width: 126px;
+    padding-top: 26px;
+    text-align: center;
+}
+
+p {
+    color: #8E88C1;
+}
+
+.all-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+/* ============================= */
+
